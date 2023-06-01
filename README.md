@@ -72,7 +72,7 @@ After running the tests with the command `python -m pytest -s -v --headed --html
 ### Detail of the tests report
 ![Detail of the tests report](images/html-report-test-detail.png)
 
-## Activated generation of detailed screenshots
+## Activate generation of detailed screenshots
 To generated screenshots of each key part of the tests go to **pom/data/constants.py** and replace the value False for True of the **FULL_SCREENSHOT** variable. Then after a run of the tests go to the **pom/screenshots** to see the generated screenshots.
 
 ## Project status
