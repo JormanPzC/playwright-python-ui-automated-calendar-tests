@@ -153,7 +153,6 @@ class CalendarPage:
         """
         It is used to open the year dropdown and click a year.
         :param int year: Year to click in the year dropdown.
-        :return:
         """
         is_year_valid = self.is_year_in_valid_range(year)
 
@@ -188,7 +187,7 @@ class CalendarPage:
         It is used to get a string of the date received to compare with the calendars Date input 
         displayed in the calendars.
         :param date date: Date to transform in the format used in the input date.
-        :return: String of the date in a especif format. E.g "Feb 6, 2023".
+        :return: String of the date in a specific format. E.g "Feb 6, 2023".
         """
         year = date.year
         month_index = date.month - 1

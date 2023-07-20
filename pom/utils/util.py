@@ -10,7 +10,7 @@ from dateutil.relativedelta import relativedelta
 def add_days(date_received, days_to_add):
     """
     It is used to add days to a date.
-    :param date date_received: Base date to add days. parámetro.
+    :param date date_received: Base date to add days.
     :param int days_to_add: Number of days to add to the date, it can be a negative number.
     :return: Date with the added days.
     """
